@@ -1,0 +1,72 @@
+2025-06-18 23:38:01,435 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-18 23:38:01,435 - INFO - Connection established in read-only mode.
+2025-06-18 23:38:14,603 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-18 23:38:14,604 - INFO - Connection established in read-only mode.
+2025-06-18 23:40:00,598 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-18 23:40:00,598 - INFO - Connection established in read-only mode.
+2025-06-18 23:56:45,975 - ERROR - Failed to connect to IBKR API: [WinError 1225] The remote computer refused the network connection
+2025-06-18 23:59:35,365 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-18 23:59:35,365 - INFO - Connection established in read-only mode.
+2025-06-19 00:00:01,010 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:00:01,011 - INFO - Connection established in read-only mode.
+2025-06-19 00:05:20,443 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:05:20,443 - INFO - Connection established in read-only mode.
+2025-06-19 00:05:33,866 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:05:33,866 - INFO - Connection established in read-only mode.
+2025-06-19 00:05:59,183 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:05:59,183 - INFO - Connection established in read-only mode.
+2025-06-19 00:06:38,166 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:06:38,166 - INFO - Connection established in read-only mode.
+2025-06-19 00:07:12,222 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:07:12,222 - INFO - Connection established in read-only mode.
+2025-06-19 00:08:32,989 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:08:32,989 - INFO - Connection established in read-only mode.
+2025-06-19 00:08:49,819 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:08:49,819 - INFO - Connection established in read-only mode.
+2025-06-19 00:09:43,608 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:09:43,609 - INFO - Connection established in read-only mode.
+2025-06-19 00:10:11,177 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:10:11,178 - INFO - Connection established in read-only mode.
+2025-06-19 00:10:55,567 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:10:55,567 - INFO - Connection established in read-only mode.
+2025-06-19 00:12:42,394 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:12:42,394 - INFO - Connection established in read-only mode.
+2025-06-19 00:13:07,806 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:13:07,806 - INFO - Connection established in read-only mode.
+2025-06-19 00:20:12,599 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:20:12,599 - INFO - Connection established in read-only mode.
+2025-06-19 00:23:39,152 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:23:39,153 - INFO - Connection established in read-only mode.
+2025-06-19 00:27:50,760 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:27:50,760 - INFO - Connection established in read-only mode.
+2025-06-19 00:30:51,095 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:30:51,096 - INFO - Connection established in read-only mode.
+2025-06-19 00:32:47,922 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:32:47,922 - INFO - Connection established in read-only mode.
+2025-06-19 00:33:09,993 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:33:09,994 - INFO - Connection established in read-only mode.
+2025-06-19 00:34:11,369 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:34:11,369 - INFO - Connection established in read-only mode.
+2025-06-19 00:39:04,099 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:39:04,100 - INFO - Connection established in read-only mode.
+2025-06-19 00:39:36,272 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:39:36,273 - INFO - Connection established in read-only mode.
+2025-06-19 00:40:31,514 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:40:31,514 - INFO - Connection established in read-only mode.
+2025-06-19 00:42:28,005 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:42:28,006 - INFO - Connection established in read-only mode.
+2025-06-19 00:43:14,717 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:43:14,718 - INFO - Connection established in read-only mode.
+2025-06-19 00:44:34,230 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:44:34,230 - INFO - Connection established in read-only mode.
+2025-06-19 00:45:29,313 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:45:29,313 - INFO - Connection established in read-only mode.
+2025-06-19 00:58:10,181 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 00:58:10,182 - INFO - Connection established in read-only mode.
+2025-06-19 11:07:10,610 - ERROR - Failed to connect to IBKR API: [WinError 1225] The remote computer refused the network connection
+2025-06-19 11:10:26,417 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 11:10:26,419 - INFO - Connection established in read-only mode.
+2025-06-19 11:13:35,894 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 11:13:35,895 - INFO - Connection established in read-only mode.
+2025-06-19 11:26:51,449 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-19 11:26:51,450 - INFO - Connection established in read-only mode.

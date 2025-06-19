@@ -1,0 +1,13 @@
+Open cmd in the project's folder and type these commands:
+
+py -m venv venv
+venv\Scripts\activate
+py -m pip install -r requirements.txt
+
+After that change the name of .env.template to .env
+
+To run this project manually, type this next command in cmd window:
+py ce_expert_monitor.py
+
+
+

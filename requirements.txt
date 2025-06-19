@@ -1,0 +1,11 @@
+Flask
+requests
+beautifulsoup4
+ib_insync
+pandas
+lxml
+openai
+plyer
+snscrape @ git+https://github.com/JustAnotherArchivist/snscrape.git
+python-dotenv
+feedparser
