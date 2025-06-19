@@ -1,6 +1,6 @@
 
 from flask import Flask, render_template, request
-from scraper import get_latest_stock_news
+from scraper import get_otc_news
 from watchlist import load_watchlist
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -11,7 +11,7 @@ def update_watchlist_news():
     print("⏱️ Running watchlist scan...")
     for ticker in load_watchlist():
         try:
-            news = get_latest_stock_news(ticker)
+            news = get_otc_news(ticker)
             ticker_news_cache[ticker] = news
         except Exception as e:
             print(f"Error updating {ticker}: {e}")

@@ -1,5 +1,5 @@
 import pandas as pd
-from otc_scraper import get_otc_news_rss as get_otc_news
+from otc_scraper import get_otc_news
 
 try:
     from yahoo_scraper import get_yahoo_news

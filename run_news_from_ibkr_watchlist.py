@@ -1,5 +1,5 @@
 from ibkr_connection import connect_ibkr, IBKRConnectionError
-from ce_expert_monitor import get_exiting_ce_expert_tickers
+from ce_expert_monitor import get_entries_and_exits_for_date
 from scraper import get_all_news
 from summarizer import summarize_text
 from alert_utils import send_alert
@@ -48,8 +48,20 @@ try:
 
     combined_tickers = set(portfolio_tickers)
     try:
-        ce_expert_tickers = get_exiting_ce_expert_tickers()
-        print(f"CE/Expert tickers: {ce_expert_tickers}")
+        today = datetime.today().strftime("%Y-%m-%d")
+        entries, exits = get_entries_and_exits_for_date(today)
+        ce_expert_tickers = {ticker for (_, ticker) in entries + exits}
+        if exits:
+            exited_tickers = ", ".join(sorted({ticker for (_, ticker) in exits}))
+            print(f"CE/Expert Exits: {exited_tickers}")
+        else:
+            print("CE/Expert Exits: []")
+
+        if entries:
+            entered_tickers = ", ".join(sorted({ticker for (_, ticker) in entries}))
+            print(f"CE/Expert Entries: {entered_tickers}")
+        else:
+            print("CE/Expert Entries: []")
         combined_tickers.update(ce_expert_tickers)
     except Exception as e:
         print("⚠️ Failed loading CE/Expert tickers:", e)
