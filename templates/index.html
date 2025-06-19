@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OTC Stock News</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        input, button { padding: 8px; margin: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 10px; }
+        th { background-color: #f3f3f3; }
+    </style>
+</head>
+<body>
+    <h1>📰 OTC Stock News Dashboard</h1>
+
+    <form method="post">
+        <label>Search Ticker:</label>
+        <input type="text" name="ticker" value="{{ ticker }}" required>
+        <button type="submit">Get News</button>
+    </form>
+
+    {% if ticker and news %}
+        <h2>Latest News for {{ ticker }}</h2>
+        <table>
+            <tr><th>Date</th><th>Source</th><th>Headline</th></tr>
+            {% for item in news %}
+                <tr>
+                    <td>{{ item.date }}</td>
+                    <td>{{ item.source }}</td>
+                    <td><a href="{{ item.link }}" target="_blank">{{ item.headline }}</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+
+    <h2>📋 Watchlist News</h2>
+    {% for symbol, news_list in watchlist.items() %}
+        <h3>{{ symbol }}</h3>
+        <table>
+            <tr><th>Date</th><th>Source</th><th>Headline</th></tr>
+            {% for item in news_list[:5] %}
+                <tr>
+                    <td>{{ item.date }}</td>
+                    <td>{{ item.source }}</td>
+                    <td><a href="{{ item.link }}" target="_blank">{{ item.headline }}</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endfor %}
+</body>
+</html>
