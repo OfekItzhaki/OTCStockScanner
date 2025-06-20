@@ -1220,3 +1220,52 @@
 2025-06-20 00:57:37,243 - INFO - Connection established in read-only mode.
 2025-06-20 00:57:37,245 - INFO - Disconnecting from 127.0.0.1:7497, 117 B sent in 8 messages, 8.36 kB received in 191 messages, session time 120 ms.
 2025-06-20 00:57:37,245 - INFO - Disconnecting
+2025-06-20 21:29:02,071 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-06-20 21:29:02,073 - INFO - Connected
+2025-06-20 21:29:02,147 - INFO - Logged on to server version 176
+2025-06-20 21:29:02,163 - INFO - API connection ready
+2025-06-20 21:29:02,168 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-06-20 21:29:02,168 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-06-20 21:29:02,168 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-06-20 21:29:02,168 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-06-20 21:29:02,168 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-06-20 21:29:02,169 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-06-20 21:29:02,169 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-06-20 21:29:02,480 - INFO - Synchronization complete
+2025-06-20 21:29:02,480 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-20 21:29:02,481 - INFO - Connection established in read-only mode.
+2025-06-20 21:29:02,491 - INFO - Disconnecting from 127.0.0.1:7497, 117 B sent in 8 messages, 9.30 kB received in 208 messages, session time 421 ms.
+2025-06-20 21:29:02,491 - INFO - Disconnecting
+2025-06-20 21:48:05,093 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-06-20 21:48:05,095 - INFO - Connected
+2025-06-20 21:48:05,106 - INFO - Logged on to server version 176
+2025-06-20 21:48:05,109 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-06-20 21:48:05,109 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-06-20 21:48:05,110 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-06-20 21:48:05,110 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-06-20 21:48:05,110 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-06-20 21:48:05,110 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-06-20 21:48:05,110 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-06-20 21:48:05,110 - INFO - API connection ready
+2025-06-20 21:48:05,427 - INFO - Synchronization complete
+2025-06-20 21:48:05,427 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-20 21:48:05,427 - INFO - Connection established in read-only mode.
+2025-06-20 21:48:05,444 - INFO - Disconnecting from 127.0.0.1:7497, 117 B sent in 8 messages, 9.30 kB received in 208 messages, session time 351 ms.
+2025-06-20 21:48:05,444 - INFO - Disconnecting
+2025-06-20 21:51:24,346 - INFO - Connecting to 127.0.0.1:7497 with clientId 1...
+2025-06-20 21:51:24,347 - INFO - Connected
+2025-06-20 21:51:24,355 - INFO - Logged on to server version 176
+2025-06-20 21:51:24,356 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj
+2025-06-20 21:51:24,357 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:cashfarm
+2025-06-20 21:51:24,357 - INFO - Warning 2104, reqId -1: Market data farm connection is OK:usfarm
+2025-06-20 21:51:24,357 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:euhmds
+2025-06-20 21:51:24,357 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:fundfarm
+2025-06-20 21:51:24,357 - INFO - API connection ready
+2025-06-20 21:51:24,358 - INFO - Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds
+2025-06-20 21:51:24,358 - INFO - Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefil
+2025-06-20 21:51:24,463 - INFO - Synchronization complete
+2025-06-20 21:51:24,464 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-20 21:51:24,465 - INFO - Connection established in read-only mode.
+2025-06-20 21:51:24,468 - INFO - Disconnecting from 127.0.0.1:7497, 117 B sent in 8 messages, 9.30 kB received in 208 messages, session time 122 ms.
+2025-06-20 21:51:24,469 - INFO - Disconnecting
+2025-06-20 21:51:40,756 - INFO - Starting CE/Expert tracking

@@ -93,3 +93,9 @@
 2025-06-20 00:57:14,436 - INFO - Connection established in read-only mode.
 2025-06-20 00:57:37,243 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
 2025-06-20 00:57:37,243 - INFO - Connection established in read-only mode.
+2025-06-20 21:29:02,480 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-20 21:29:02,481 - INFO - Connection established in read-only mode.
+2025-06-20 21:48:05,427 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-20 21:48:05,427 - INFO - Connection established in read-only mode.
+2025-06-20 21:51:24,464 - INFO - Connected to IBKR API at 127.0.0.1:7497 with clientId=1
+2025-06-20 21:51:24,465 - INFO - Connection established in read-only mode.

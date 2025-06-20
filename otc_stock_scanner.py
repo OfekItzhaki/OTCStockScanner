@@ -1,5 +1,9 @@
 from ibkr_connection import connect_ibkr, IBKRConnectionError
-from ce_expert_monitor import get_entries_and_exits_for_date
+from ce_expert_monitor import (
+    fetch_ce_expert_tickers,
+    track_entries_and_exits,
+    get_entries_and_exits_for_date
+)
 from scraper import get_all_news
 from summarizer import summarize_text
 from alert_utils import send_alert
@@ -47,24 +51,38 @@ try:
     print(f"Portfolio tickers: {portfolio_tickers}")
 
     combined_tickers = set(portfolio_tickers)
+
+    # Fetch current CE/Expert tickers live from OTC Markets FTP
     try:
+        ce_today, em_today = fetch_ce_expert_tickers()
+
+        # Track entries and exits (updates DB and sends alerts)
+        track_entries_and_exits("Caveat Emptor", ce_today)
+        track_entries_and_exits("Expert Market", em_today)
+
+        ce_expert_tickers = ce_today.union(em_today)
+        print(f"Current CE/Expert tickers (live): {sorted(ce_expert_tickers)}")
+
+        # Get today's entries and exits from DB for reporting
         today = datetime.today().strftime("%Y-%m-%d")
         entries, exits = get_entries_and_exits_for_date(today)
-        ce_expert_tickers = {ticker for (_, ticker) in entries + exits}
+
         if exits:
             exited_tickers = ", ".join(sorted({ticker for (_, ticker) in exits}))
-            print(f"CE/Expert Exits: {exited_tickers}")
+            print(f"CE/Expert Exits Today: {exited_tickers}")
         else:
-            print("CE/Expert Exits: []")
+            print("CE/Expert Exits Today: []")
 
         if entries:
             entered_tickers = ", ".join(sorted({ticker for (_, ticker) in entries}))
-            print(f"CE/Expert Entries: {entered_tickers}")
+            print(f"CE/Expert Entries Today: {entered_tickers}")
         else:
-            print("CE/Expert Entries: []")
+            print("CE/Expert Entries Today: []")
+
         combined_tickers.update(ce_expert_tickers)
+
     except Exception as e:
-        print("⚠️ Failed loading CE/Expert tickers:", e)
+        print("⚠️ Failed loading or tracking CE/Expert tickers:", e)
 
     if not combined_tickers:
         print("❌ No tickers found.")
@@ -82,7 +100,7 @@ try:
 
         for item in news[:3]:
             print(f"  📰 {item['title']}")
-            summary_text = summarize_text(item["summary"], ticker=ticker) if item.get("summary") else "(No summary)"
+            summary_text = summarize_text(item.get("summary", ""), ticker=ticker) if item.get("summary") else "(No summary)"
             print(f"  🧠 {summary_text}")
 
             append_to_csv([datetime.now().strftime("%Y-%m-%d"), ticker, item["title"], summary_text])
